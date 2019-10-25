@@ -9,9 +9,9 @@ public class ManejoUsuario {
 
     public static void main(String[] args) {
 //INSERTA UN NUEVO USUARIO
-//        Usuario usuario = new Usuario("prueba", "123");
-//        UsuarioJDBC usuarioJDBC = new UsuarioJDBC();
-//        usuarioJDBC.insert(usuario);
+        Usuario usuario = new Usuario("prueba", "123");
+        UsuarioJDBC usuarioJDBC = new UsuarioJDBC();
+        usuarioJDBC.insert(usuario);
 
 
 //un comentario
